@@ -1,5 +1,5 @@
 function App() {
-  return <div>Hello World!</div>;
+  return <div>Select Quiz!</div>;
 }
 
 export default App;
