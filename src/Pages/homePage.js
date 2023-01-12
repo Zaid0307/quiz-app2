@@ -1,5 +1,7 @@
-function App() {
-  return <div>Homepage!</div>;
+import BegrüssungsText from "../Component/BegrüssungsText";
+
+function homePage() {
+  return <BegrüssungsText />;
 }
 
-export default App;
+export default homePage;
