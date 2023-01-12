@@ -1,34 +1,53 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
+import questions from "../data/questions.json";
 
 function BegrüssungsText() {
-  const [showAnswer, setShowAnswer] = useState(false);
+  const [currentQuestion, setCurrentQuestion] = useState({});
+  const [correctAnswers, setCorrectAnswers] = useState(0);
+  const [isAnswerCorrect, setIsAnswerCorrect] = useState(false);
 
   useEffect(() => {
-    if (showAnswer) {
-      const timeoutId = setTimeout(() => {
-        setShowAnswer(false);
-      }, 3500);
-      return () => clearTimeout(timeoutId);
+    setCurrentQuestion(selectRandomQuestion());
+  }, []);
+
+  function selectRandomQuestion() {
+    // flatten the questions array
+    const allQuestions = [].concat(
+      ...questions.categories.map((c) => c.quizzes.map((q) => q.questions))
+    );
+    // select a random question
+    const randomIndex = Math.floor(Math.random() * allQuestions.length);
+    return allQuestions[randomIndex];
+  }
+
+  function handleAnswer(answer) {
+    if (answer === currentQuestion.answer) {
+      setCorrectAnswers(correctAnswers + 1);
+      setIsAnswerCorrect(true);
+    } else {
+      setIsAnswerCorrect(false);
     }
-  }, [showAnswer]);
+    setTimeout(() => {
+      setCurrentQuestion(selectRandomQuestion());
+      setIsAnswerCorrect(false);
+    }, 2500);
+  }
 
   return (
     <Container>
-      <p>
-        Willkommen bei unserer Quiz-App! Hier können Sie selbst Quizzen
-        erstellen oder vorhandene Quizzen beantworten. Testen Sie Ihr Wissen und
-        lernen Sie etwas Neues, indem Sie an unseren Quizzen teilnehmen. Wussten
-        Sie schon, dass Quizzen eine tolle Möglichkeit sind, um Ihr Gedächtnis
-        zu trainieren und Ihre kognitiven Fähigkeiten zu verbessern? Also,
-        worauf warten Sie noch? Legen Sie los und machen Sie mit!
-      </p>
-      <p>Quiz-Scherz: Warum war der Mathematiker immer müde?</p>
-      {showAnswer ? (
-        <QuizJoke>Weil er ständig über Integralen schlief!</QuizJoke>
-      ) : (
-        <button onClick={() => setShowAnswer(true)}>Antwort anzeigen</button>
-      )}
+      <Question>{currentQuestion.question}</Question>
+      <Options>
+        {currentQuestion.options.map((option, index) => (
+          <OptionButton
+            key={index}
+            onClick={() => handleAnswer(option)}
+            isCorrect={isAnswerCorrect && currentQuestion.answer === option}
+          >
+            {option}
+          </OptionButton>
+        ))}
+      </Options>
     </Container>
   );
 }
@@ -37,14 +56,29 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
 `;
 
-const QuizJoke = styled.p`
-  font-size: 16px;
-  margin: 20px 0;
+const Question = styled.p`
+  margin: 1em 0;
+`;
+
+const Options = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+`;
+
+const OptionButton = styled.button`
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: ${(props) => (props.isCorrect ? "green" : "white")};
+  color: ${(props) => (props.isCorrect ? "white" : "black")};
+  &:hover {
+    background-color: ${(props) =>
+      props.isCorrect ? "lightgreen" : "lightgray"};
+  }
 `;
 
 export default BegrüssungsText;

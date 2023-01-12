@@ -1,0 +1,79 @@
+{
+  "categories": [
+    {
+      "name": "Anime",
+      "quizzes": [
+        {
+          "name": "Naruto Shippuden",
+          "questions": [
+            {
+              "question": "Welcher Charakter war der letzte Jinchuriki des Juubi?",
+              "options": [
+                "Obito Uchiha",
+                "Madara Uchiha",
+                "Naruto Uzumaki",
+                "Minato Namikaze"
+              ],
+              "answer": "Naruto Uzumaki"
+            }
+          ]
+        },
+        {
+          "name": "One Piece",
+          "questions": [
+            {
+              "question": "Wie heißt das erste Opening des Animes One Piece?",
+              "options": [
+                "We Are!",
+                "Believe",
+                "Crazy Rainbow",
+                "Brand New World"
+              ],
+              "answer": "We Are!"
+            }
+          ]
+        },
+        {
+          "name": "Games",
+          "quizzes": [
+            {
+              "name": "Tekken",
+              "questions": [
+                {
+                  "question": "Wer ist der Schöpfer des Spiels Tekken?",
+                  "options": [
+                    "Katsuhiro Harada",
+                    "Hideo Kojima",
+                    "Hideki Kamiya",
+                    "Yoshinori Ono"
+                  ],
+                  "answer": "Katsuhiro Harada"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bildung",
+          "quizzes": [
+            {
+              "name": "Scrum",
+              "questions": [
+                {
+                  "question": "Wie oft findet eine Sprint Review statt?",
+                  "options": [
+                    "Einmal pro Woche",
+                    "Einmal pro Monat",
+                    "Am Ende jedes Sprints",
+                    "Am Anfang jedes Sprints"
+                  ],
+                  "answer": "Am Ende jedes Sprints"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
