@@ -1,5 +1,5 @@
-function App() {
+function createForm() {
   return <div>Create Quiz</div>;
 }
 
-export default App;
+export default createForm;
