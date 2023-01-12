@@ -1,4 +1,4 @@
-import BegrüssungsText from "../Component/Begrüssungstext";
+import BegrüssungsText from "../Component/BegrüssungsText";
 
 function homePage() {
   return <BegrüssungsText />;
