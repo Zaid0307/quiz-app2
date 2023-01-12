@@ -1,0 +1,79 @@
+{
+  "categories": [
+    {
+      "name": "Anime",
+      "quizzes": [
+        {
+          "name": "Naruto Shippuden",
+          "questions": [
+            {
+              "question": "Wer ist der Hauptprotagonist der Serie?",
+              "options": [
+                "Sasuke Uchiha",
+                "Naruto Uzumaki",
+                "Kakashi Hatake",
+                "Itachi Uchiha"
+              ],
+              "answer": "Naruto Uzumaki"
+            },
+            {
+              "question": "Wer ist der Anführer der Akatsuki?",
+              "options": [
+                "Kaguya Otsutsuki",
+                "Madara Uchiha",
+                "Obito Uchiha",
+                "Pain"
+              ],
+              "answer": "Pain"
+            }
+          ]
+        },
+        {
+          "name": "Dragon Ball Z",
+          "questions": [
+            {
+              "question": "Wer ist der Vater von Son Gohan?",
+              "options": ["Vegeta", "Goku", "Trunks", "Piccolo"],
+              "answer": "Goku"
+            },
+            {
+              "question": "Wie heißt der Feind der Dragon Ball Z-Serie?",
+              "options": ["Freezer", "Cell", "Buu", "Zamasu"],
+              "answer": "Freezer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Filme",
+      "quizzes": [
+        {
+          "name": "Star Wars",
+          "questions": [
+            {
+              "question": "Wer ist der Schöpfer von Star Wars?",
+              "options": [
+                "George Lucas",
+                "Steven Spielberg",
+                "James Cameron",
+                "Quentin Tarantino"
+              ],
+              "answer": "George Lucas"
+            },
+            {
+              "question": "Wie heißt der erste Star Wars-Film?",
+              "options": [
+                "The Empire Strikes Back",
+                "Return of the Jedi",
+                "A New Hope",
+                "The Phantom Menace"
+              ],
+              "answer": "A New Hope"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
