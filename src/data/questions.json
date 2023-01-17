@@ -1,0 +1,399 @@
+{
+  "categories": [
+    {
+      "name": "Anime",
+      "quizzes": [
+        {
+          "name": "Naruto Shippuden",
+          "questions": [
+            {
+              "question": "Welcher Charakter war der letzte Jinchuriki des Juubi?",
+              "options": [
+                "Obito Uchiha",
+                "Madara Uchiha",
+                "Naruto Uzumaki",
+                "Minato Namikaze"
+              ],
+              "answer": "Naruto Uzumaki"
+            },
+            {
+              "question": "Welche Technik nutzt Naruto, um seine Chakrareserven zu erhöhen?",
+              "options": [
+                "Sage Mode",
+                "Rasenshuriken",
+                "Tenseigan",
+                "Sage Art: Super Tailed Beast Rasenshuriken"
+              ],
+              "answer": "Sage Art: Super Tailed Beast Rasenshuriken"
+            },
+            {
+              "question": "Welche Technik nutzt Itachi, um Gedankenkontrolle auszuüben?",
+              "options": [
+                "Sharingan",
+                "Rinnegan",
+                "Mangekyou Sharingan",
+                "Tsukuyomi"
+              ],
+              "answer": "Tsukuyomi"
+            },
+            {
+              "question": "Welcher Charakter stirbt zuerst im Krieg der Shinobi?",
+              "options": [
+                "Neji Hyuga",
+                "Asuma Sarutobi",
+                "Shikaku Nara",
+                "Inoichi Yamanaka"
+              ],
+              "answer": "Asuma Sarutobi"
+            },
+            {
+              "question": "Welcher Charakter ist der Vater von Boruto Uzumaki",
+              "options": [
+                "Sasuke Uchiha",
+                "Kakashi Hatake",
+                "Naruto Uzumaki",
+                "Jiraiya"
+              ],
+              "answer": "Naruto Uzumaki"
+            },
+            {
+              "question": "Welche Technik nutzt Kaguya, um Gegner in eine andere Dimension zu schicken?",
+              "options": [
+                "Rinne Tensei no Jutsu",
+                "Chibaku Tensei",
+                "Infinite Tsukuyomi",
+                "All-Killing Ash Bones"
+              ],
+              "answer": "All-Killing Ash Bones"
+            },
+            {
+              "question": "Welcher Charakter ist der Vater von Gaara",
+              "options": ["Rasa", "Yashamaru", "Kankuro", "Temari"],
+              "answer": "Temari"
+            },
+            {
+              "question": "Welche Technik nutzt Kabuto, um Tote wiederzubeleben?",
+              "options": [
+                "Edo Tensei",
+                "Rinne Tensei",
+                "Shiki Fuujin",
+                "Kuchiyose no Jutsu"
+              ],
+              "answer": "Edo Tensei"
+            }
+          ]
+        },
+        {
+          "name": "One Piece",
+          "questions": [
+            {
+              "question": "Wie heißt das erste Opening des Animes One Piece?",
+              "options": [
+                "We Are!",
+                "Believe",
+                "Crazy Rainbow",
+                "Brand New World"
+              ],
+              "answer": "We Are!"
+            },
+            {
+              "question": "Wer war der frühere Besitzer des berühmten Schwerts Shusui?",
+              "options": [
+                "Roronoa Zoro",
+                "Kozuki Oden",
+                "Vinsmoke Sanji",
+                "Portgas D. Ace"
+              ],
+              "answer": "Kozuki Oden"
+            },
+            {
+              "question": "Wie heißt die Familie von Vinsmoke Sanji?",
+              "options": ["Vinsmoke", "Charlotte", "Wano", "Big Mom"],
+              "answer": "Vinsmoke"
+            },
+            {
+              "question": "Wie heißt die Frucht, die Tony Tony Chopper isst und ihm die Fähigkeit gibt, sich in einen Menschen zu verwandeln?",
+              "options": [
+                "Zoan-Frucht",
+                "Paramecia-Frucht",
+                "Logia-Frucht",
+                "Devil Frucht"
+              ],
+              "answer": "Zoan-Frucht"
+            },
+            {
+              "question": "Wer ist der Schöpfer von One Piece?",
+              "options": [
+                "Eiichiro Oda",
+                "Tite Kubo",
+                "Masashi Kishimoto",
+                "Hiro Mashima"
+              ],
+              "answer": "Eiichiro Oda"
+            },
+            {
+              "question": "Welcher Charakter hat die Fähigkeit, sich in einen Riesen zu verwandeln?",
+              "options": ["Usopp", "Nami", "Chopper", "Brook"],
+              "answer": "Brook"
+            },
+            {
+              "question": "Welcher Schatz wird von der Strohhutbande gesucht, um Gol D. Roger zu finden?",
+              "options": ["Poneglyph", "Rocks", "One Piece", "Treasure Map"],
+              "answer": "Poneglyph"
+            },
+            {
+              "question": "Wer ist der Gründer der Revolutionären Armee?",
+              "options": ["Monkey D. Dragon", "Sabo", "Whitebeard", "Shanks"],
+              "answer": "Monkey D. Dragon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Games",
+      "quizzes": [
+        {
+          "name": "Tekken",
+          "questions": [
+            {
+              "question": "Wer ist der Schöpfer des Spiels Tekken?",
+              "options": [
+                "Katsuhiro Harada",
+                "Hideo Kojima",
+                "Hideki Kamiya",
+                "Yoshinori Ono"
+              ],
+              "answer": "Katsuhiro Harada"
+            },
+            {
+              "question": "Wie heißt der Protagonist des Spiels?",
+              "options": [
+                "Jin Kazama",
+                "Heihachi Mishima",
+                "Nina Williams",
+                "Paul Phoenix"
+              ],
+              "answer": "Jin Kazama"
+            },
+            {
+              "question": "Welcher Charakter hat eine Affinität zur Musik?",
+              "options": [
+                "Eddy Gordo",
+                "Julia Chang",
+                "Lars Alexandersson",
+                "Kunimitsu"
+              ],
+              "answer": "Eddy Gordo"
+            },
+            {
+              "question": "Wie heißt die Organisation, die im Hintergrund des Spiels agiert?",
+              "options": [
+                "The Mishima Zaibatsu",
+                "The G Corporation",
+                "The King of Iron Fist Tournament",
+                "The Tekken Force"
+              ],
+              "answer": "The Mishima Zaibatsu"
+            },
+            {
+              "question": "Wer ist der Vater von Jin Kazama?",
+              "options": [
+                "Kazuya Mishima",
+                "Heihachi Mishima",
+                "Jinpachi Mishima",
+                "Lee Chaolan"
+              ],
+              "answer": "Heihachi Mishima"
+            },
+            {
+              "question": "Welche Kampfstil nutzt Yoshimitsu?",
+              "options": [
+                "Karate",
+                "Jiu-Jitsu",
+                "Ninjutsu",
+                "Samurai-Kampfstil"
+              ],
+              "answer": "Ninjutsu"
+            },
+            {
+              "question": "Wer ist der Gegner von Jin Kazama im Finale des Spiels?",
+              "options": [
+                "Kazuya Mishima",
+                "Heihachi Mishima",
+                "Jinpachi Mishima",
+                "Azazel"
+              ],
+              "answer": "Azazel"
+            },
+            {
+              "question": "Welcher Charakter kann sich in einen Dämon verwandeln?",
+              "options": [
+                "Kazuya Mishima",
+                "Heihachi Mishima",
+                "Jin Kazama",
+                "Devil Jin"
+              ],
+              "answer": "Jin Kazama"
+            }
+          ]
+        },
+        {
+          "name": "Mortal Kombat",
+          "questions": [
+            {
+              "question": "Wer ist der Schöpfer des Spiels Mortal Kombat?",
+              "options": [
+                "Ed Boon",
+                "Hideo Kojima",
+                "John Tobias",
+                "Yoshinori Ono"
+              ],
+              "answer": "Ed Boon"
+            },
+            {
+              "question": "Wie heißt der Protagonist des Spiels?",
+              "options": ["Liu Kang", "Scorpion", "Sub-Zero", "Johnny Cage"],
+              "answer": "Liu Kang"
+            },
+            {
+              "question": "Welche Fähigkeit hat Scorpion?",
+              "options": [
+                "Er kann Feuer spucken",
+                "Er kann sich unsichtbar machen",
+                "Er kann eine Kette mit einem Speer am Ende nutzen",
+                "Er kann Gegner aus der Ferne mit einem Projektil angreifen"
+              ],
+              "answer": "Er kann eine Kette mit einem Speer am Ende nutzen"
+            },
+            {
+              "question": "Wie heißt die Organisation, die im Hintergrund des Spiels agiert?",
+              "options": [
+                "The Black Dragon",
+                "The Lin Kuei",
+                "The Brotherhood of Shadow",
+                "The Outworld"
+              ],
+              "answer": "The Lin Kuei"
+            },
+            {
+              "question": "Wer ist der Gegner von Shang Tsung im Finale des Spiels?",
+              "options": ["Raiden", "Liu Kang", "Shao Kahn", "Scorpion"],
+              "answer": "Liu Kang"
+            },
+            {
+              "question": "Welche Art von Kampfstil hat Sonya Blade?",
+              "options": [
+                "Kung Fu",
+                "Jiu-Jitsu",
+                "Muay Thai",
+                "Militärische Kampftechniken"
+              ],
+              "answer": "Militärische Kampftechniken"
+            },
+            {
+              "question": "Wie heißt die Fähigkeit, die Gegner auf die Bühne zurückschleudert?",
+              "options": ["X-Ray", "Fatality", "Brutality", "Kombo Breaker"],
+              "answer": "Kombo Breaker"
+            },
+            {
+              "question": "Welcher Charakter hat die Fähigkeit, sich in eine Art Dämon zu verwandeln?",
+              "options": ["Ermac", "Mileena", "Baraka", "Kano"],
+              "answer": "Ermac"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bildung",
+      "quizzes": [
+        {
+          "name": "Scrum",
+          "questions": [
+            {
+              "question": "Wie oft findet eine Sprint Review statt?",
+              "options": [
+                "Einmal pro Woche",
+                "Einmal pro Monat",
+                "Am Ende jedes Sprints",
+                "Am Anfang jedes Sprints"
+              ],
+              "answer": "Am Ende jedes Sprints"
+            },
+            {
+              "question": "Wer ist der Scrum Master?",
+              "options": [
+                "Ein Teammitglied",
+                "Der Projektleiter",
+                "Der Product Owner",
+                "Der Coach und Servant Leader für das Team"
+              ],
+              "answer": "Der Coach und Servant Leader für das Team"
+            },
+            {
+              "question": "Wie heißt die Methode, die Scrum zur Schätzung der Aufwände verwendet?",
+              "options": [
+                "Gantt Chart",
+                "PERT Diagramm",
+                "Story Points",
+                "Work Breakdown Structure"
+              ],
+              "answer": "Story Points"
+            },
+            {
+              "question": "Wer hat die Verantwortung für die Priorisierung der Product Backlog Items?",
+              "options": [
+                "Das Development Team",
+                "Der Scrum Master",
+                "Der Projektleiter",
+                "Der Product Owner"
+              ],
+              "answer": "Der Product Owner"
+            },
+            {
+              "question": "Wie heißt die Methode, die Scrum zur Verwaltung von Problemen und Risiken verwendet?",
+              "options": [
+                "Issue Log",
+                "Risk Register",
+                "Sprint Backlog",
+                "Product Backlog"
+              ],
+              "answer": "Sprint Backlog"
+            },
+            {
+              "question": "Wie oft findet eine Sprint Retrospektive statt?",
+              "options": [
+                "Einmal pro Woche",
+                "Einmal pro Monat",
+                "Am Ende jedes Sprints",
+                "Am Anfang jedes Sprints"
+              ],
+              "answer": "Am Ende jedes Sprints"
+            },
+            {
+              "question": "Wie heißt die Methode, die Scrum zur Planung der Sprint-Ziele verwendet?",
+              "options": [
+                "Gantt Chart",
+                "PERT Diagramm",
+                "Sprint Planning Meeting",
+                "Work Breakdown Structure"
+              ],
+              "answer": "Sprint Planning Meeting"
+            },
+            {
+              "question": "Wie heißt die Methode, die Scrum zur Steuerung des Projektfortschritts verwendet?",
+              "options": [
+                "Burndown Chart",
+                "Gantt Chart",
+                "PERT Diagramm",
+                "Work Breakdown Structure"
+              ],
+              "answer": "Burndown Chart"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
